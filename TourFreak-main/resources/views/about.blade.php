@@ -57,7 +57,7 @@
     <div class="team">
         <div class="team-member">
             <img src="{{ asset('images/bg-img.jpg') }}" alt="Team Member 1">
-            <h5>Abir Hassan</h5>
+            <h5>Abir Hasan</h5>
             <p></p>
         </div>
         <div class="team-member">
