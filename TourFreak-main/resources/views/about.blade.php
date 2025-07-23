@@ -72,7 +72,7 @@
         </div>
         <div class="team-member">
             <img src="{{ asset('images/team3.jpg') }}" alt="Team Member 4">
-            <h5>Mim Khan</h5>
+            <h5>Mim </h5>
             <p></p>
         </div>
     </div>
