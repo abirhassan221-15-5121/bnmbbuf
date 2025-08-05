@@ -30,6 +30,9 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+Route::get('/Dashboard', function () {
+    return view('Dashboard');
+})->name('Dashboard');
 
 
 // Register routes
@@ -83,3 +86,5 @@ Route::get('/admin/home', [AdminController::class, 'index'])
     ->name('admin.home')
     ->middleware(['auth', 'is_admin']);
 
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
